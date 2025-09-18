@@ -1,0 +1,1 @@
+\dt -- apenas via terminal

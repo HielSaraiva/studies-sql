@@ -1,0 +1,1 @@
+DROP DATABASE another_db;
