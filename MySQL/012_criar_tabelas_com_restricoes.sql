@@ -9,7 +9,7 @@ CREATE TABLE outra_tabela (
 CREATE TABLE minha_tabela (
    id INTEGER NOT NULL,
    pais VARCHAR(2) DEFAULT 'CA' 
-      CONSTRAINT chk_pais 
+   CONSTRAINT chk_pais 
       CHECK (pais IN ('CA', 'US')),
    nome VARCHAR(15),
    cap_nome VARCHAR(15),
